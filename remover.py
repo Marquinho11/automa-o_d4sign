@@ -8,10 +8,10 @@ driver.get("https://secure.d4sign.com.br/login.html?r=/desk/cofres/171414/4ad8dd
 
 sleep(0.1)
 email_user = driver.find_element(By.XPATH, "//input[@id='Email']")
-email_user.send_keys('ti@cooperemb.com.br')
+email_user.send_keys('')
 
 password_user = driver.find_element(By.XPATH, "//input[@id='Passwd']")
-password_user.send_keys('Cooper@74')
+password_user.send_keys('')
 
 button = driver.find_element(By.XPATH, "//button[@class='btn-control-lg btn block full-width m-b btn_entrar']")
 button.click()
